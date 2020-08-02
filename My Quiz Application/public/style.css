@@ -1,0 +1,706 @@
+body{
+     
+    background-image: url("https://images.pexels.com/photos/54323/rose-composites-flowers-spring-54323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: none;
+}
+
+
+.main{
+    background-color: none;
+    color: black;
+    text-align: center;
+    /* height: 400px;
+    width: 70%; */
+    /* margin-top: 100px; */
+      
+}
+
+#counter-heading{
+ padding-top: 30px;
+ 
+}
+
+
+#Quiz-heading{
+margin-bottom: 50px;
+    font-size: 50px;
+    padding-top: 50px;
+    color: aliceblue;
+    
+}
+
+
+#input-name{
+
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: large;
+
+}
+#Start-quiz-btn:hover{
+    background-color: lavender;
+    transition: all 0.3s ease 0s;
+}
+
+#Start-quiz-btn{
+    margin-top: 5px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+
+
+
+#main-div{
+    
+    background-color: none;
+    color: aliceblue;
+    height: 500px;
+    width: 60%;
+    text-align: center;
+    margin: 40px;
+    
+
+}
+
+
+
+#list{
+    list-style-type: none;
+    position: relative;    
+    top: 200px;
+    display: inline-flex;
+
+}
+
+.choices:focus{
+    
+    background-color: lavender;
+}
+
+.choices{
+
+    padding: 10px 20px 10px 20px;
+    margin: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+   border: none;
+    
+}
+
+#para{
+    font-size: 30px;
+font-weight: bold;
+}
+
+#next-button{
+    position: relative;
+    top: 300px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.choices , #next-button:hover{
+    background-color: lavender;
+    transition: all 0.3s ease 0s;
+}
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{
+     
+        background-image: url("https://images.pexels.com/photos/54323/rose-composites-flowers-spring-54323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        background-repeat: none;
+    }
+    
+    
+    .main{
+        background-color: none;
+        color: black;
+        text-align: center;
+        /* height: 400px;
+        width: 70%; */
+        /* margin-top: 100px; */
+          
+    }
+    
+    #counter-heading{
+     padding-top: 20px;
+     color: black;
+    }
+    
+    
+    #Quiz-heading{
+    margin-bottom: 50px;
+        font-size: 40px;
+        padding-top: 50px;
+        color: black;
+        
+    }
+    
+    
+    #input-name{
+    
+        width: 250px;
+        height: 40px;
+        border-radius: 10px;
+        font-size: large;
+    
+    }
+    #Start-quiz-btn:hover{
+        background-color: lavender;
+        transition: all 0.3s ease 0s;
+    }
+    
+    #Start-quiz-btn{
+        margin-top: 5px;
+        padding: 20px 20px 20px 20px;
+        border-radius: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    
+    }
+    
+    
+    
+    
+    #main-div{
+        font-weight: bold;
+        background-color: none;
+        color: black;
+        height: 400px;
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+        
+    
+    }
+    
+    
+    
+    #list{
+        list-style-type: none;
+        position: relative;    
+        top: 150px;
+        right: 20px;
+        display: inline;
+    
+    }
+    
+    .choices:focus{
+        
+        background-color: lavender;
+    }
+    
+    .choices{
+    
+        padding: 10px 20px 10px 20px;
+        margin: 15px;
+        cursor: pointer;
+        font-size: 15px;
+        border-radius: 5px;
+        background-color: whitesmoke;
+       border: none;
+        
+    }
+    
+    #para{
+        font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    bottom: 320px;
+    }
+    
+    #next-button{
+        position: relative;
+        top: 250px;
+        padding: 10px 20px 10px 20px;
+        cursor: pointer;
+        font-size: 20px;
+        border-radius: 5px;
+        border: none;
+    
+    }
+    
+    .choices , #next-button:hover{
+        background-color: lavender;
+        transition: all 0.3s ease 0s;
+    }
+}    
+ 
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body{
+     
+        background-image: url("https://images.pexels.com/photos/54323/rose-composites-flowers-spring-54323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        background-repeat: none;
+    }
+    
+    
+    .main{
+        background-color: none;
+        color: black;
+        text-align: center;
+        /* height: 400px;
+        width: 70%; */
+        /* margin-top: 100px; */
+          
+    }
+    
+    #counter-heading{
+     padding-top: 30px;
+     color: black;
+    }
+    
+    
+    #Quiz-heading{
+    margin-bottom: 50px;
+        font-size: 50px;
+        padding-top: 50px;
+        color: aliceblue;
+        
+    }
+    
+    
+    #input-name{
+    
+        width: 250px;
+        height: 40px;
+        border-radius: 10px;
+        font-size: large;
+    
+    }
+    #Start-quiz-btn:hover{
+        background-color: lavender;
+        transition: all 0.3s ease 0s;
+    }
+    
+    #Start-quiz-btn{
+        margin-top: 5px;
+        padding: 20px 20px 20px 20px;
+        border-radius: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    
+    }
+    
+    
+    
+    
+    #main-div{
+        font-weight: bolder;
+        background-color: none;
+        color: black;
+        height: 500px;
+        width: 100%;
+        text-align: center;
+        margin: 20px;
+        
+    
+    }
+    
+    
+    
+    #list{
+        list-style-type: none;
+        position: relative;    
+        top: 200px;
+        right: 20px;
+        display: inline-flex;
+    
+    }
+    
+    .choices:focus{
+        
+        background-color: lavender;
+    }
+    
+    .choices{
+    
+        padding: 10px 20px 10px 20px;
+        margin: 20px;
+        cursor: pointer;
+        font-size: 15px;
+        border-radius: 8px;
+        background-color: whitesmoke;
+       border: none;
+        
+    }
+    
+    #para{
+        font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    bottom: 50px;
+    }
+    
+    #next-button{
+        position: relative;
+        top: 300px;
+        padding: 10px 20px 10px 20px;
+        cursor: pointer;
+        font-size: 20px;
+        border-radius: 8px;
+        border: none;
+    
+    }
+    
+    .choices , #next-button:hover{
+        background-color: lavender;
+        transition: all 0.3s ease 0s;
+    }
+}    
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    #list{
+        list-style-type: none;
+        position: relative;    
+        top: 200px;
+        display: inline-flex;
+    
+    }
+    
+
+    
+    .choices{
+    
+        padding: 10px 20px 10px 20px;
+        margin: 10px;
+        cursor: pointer;
+        font-size: 15px;
+        border-radius: 10px;
+        background-color: whitesmoke;
+       border: none;
+        
+    }
+
+    #para{
+        font-size: 30px;
+       font-weight: bold;
+       position: relative;
+       
+    }
+    #Quiz-heading{
+        margin-bottom: 50px;
+            font-size: 50px;
+            padding-top: 50px;
+            color: black;
+            
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) { body{
+     
+    background-image: url("https://images.pexels.com/photos/54323/rose-composites-flowers-spring-54323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: none;
+}
+
+
+.main{
+    background-color: none;
+    color: black;
+    text-align: center;
+    /* height: 400px;
+    width: 70%; */
+    /* margin-top: 100px; */
+      
+}
+
+#counter-heading{
+ padding-top: 30px;
+ 
+}
+
+
+#Quiz-heading{
+margin-bottom: 50px;
+    font-size: 50px;
+    padding-top: 50px;
+    color: aliceblue;
+    
+}
+
+
+#input-name{
+
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: large;
+
+}
+#Start-quiz-btn:hover{
+    background-color: lavender;
+    transition: all 0.3s ease 0s;
+}
+
+#Start-quiz-btn{
+    margin-top: 5px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+
+
+
+#main-div{
+    
+    background-color: none;
+    color: aliceblue;
+    height: 500px;
+    width: 60%;
+    text-align: center;
+    margin: 40px;
+    
+
+}
+
+
+
+#list{
+    list-style-type: none;
+    position: relative;    
+    top: 200px;
+    display: inline-flex;
+
+}
+
+.choices:focus{
+    
+    background-color: lavender;
+}
+
+.choices{
+
+    padding: 10px 20px 10px 20px;
+    margin: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+   border: none;
+    
+}
+
+#para{
+    font-size: 30px;
+font-weight: bold;
+position: relative;
+bottom: 50px;
+}
+
+#next-button{
+    position: relative;
+    top: 300px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.choices , #next-button:hover{
+    background-color: lavender;
+    transition: all 0.3s ease 0s;
+}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body{
+     
+        background-image: url("https://images.pexels.com/photos/54323/rose-composites-flowers-spring-54323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        background-repeat: none;
+    }
+    
+    
+    .main{
+        background-color: none;
+        color: black;
+        text-align: center;
+        /* height: 400px;
+        width: 70%; */
+        /* margin-top: 100px; */
+          
+    }
+    
+    #counter-heading{
+     padding-top: 30px;
+     
+    }
+    
+    
+    #Quiz-heading{
+    margin-bottom: 50px;
+        font-size: 50px;
+        padding-top: 50px;
+        color: aliceblue;
+        
+    }
+    
+    
+    #input-name{
+    
+        width: 250px;
+        height: 40px;
+        border-radius: 10px;
+        font-size: large;
+    
+    }
+    #Start-quiz-btn:hover{
+        background-color: lavender;
+        transition: all 0.3s ease 0s;
+    }
+    
+    #Start-quiz-btn{
+        margin-top: 5px;
+        padding: 20px 20px 20px 20px;
+        border-radius: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    
+    }
+    
+    
+    
+    
+    #main-div{
+        
+        background-color: none;
+        color: aliceblue;
+        height: 500px;
+        width: 60%;
+        text-align: center;
+        margin: 40px;
+        
+    
+    }
+    
+    
+    
+    #list{
+        list-style-type: none;
+        position: relative;    
+        top: 200px;
+        display: inline-flex;
+    
+    }
+    
+    .choices:focus{
+        
+        background-color: lavender;
+    }
+    
+    .choices{
+    
+        padding: 10px 20px 10px 20px;
+        margin: 20px;
+        cursor: pointer;
+        font-size: 15px;
+        border-radius: 10px;
+        background-color: whitesmoke;
+       border: none;
+        
+    }
+    
+    #para{
+        font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    bottom: 50px;
+    }
+    
+    #next-button{
+        position: relative;
+        top: 300px;
+        padding: 10px 20px 10px 20px;
+        cursor: pointer;
+        font-size: 15px;
+        border-radius: 10px;
+        border: none;
+    
+    }
+    
+    .choices , #next-button:hover{
+        background-color: lavender;
+        transition: all 0.3s ease 0s;
+    }
+}
